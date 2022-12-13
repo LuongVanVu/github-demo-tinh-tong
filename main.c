@@ -1,17 +1,21 @@
 #include <stdio.h>
 
-extern int tong();
-extern int max();
+extern int tong(int x, int y);
+extern int hieu(int x, int y);
+extern int max(int x, int y);
 
 
 int main(int argc, char const *argv[])
 {
     
-    printf("%d", tong(2,3));
+    printf("Tong = %d", tong(2,3));
+
+    printf("\nHieu = %d", tong(5,3));
+    
 
     printf("max = %d", max(5,7));
-    
-    printf("Hay lam dmm");
+
+    printf("\nHello World!!!\n");
     
     return 0;
 }
