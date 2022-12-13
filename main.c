@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
     printf("\nHieu = %d", tong(5,3));
     
 
-    printf("max = %d", max(5,7));
+    printf("\nmax = %d", max(5,7));
 
     printf("\nHello World!!!\n");
     
