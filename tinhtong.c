@@ -5,7 +5,7 @@ int tong(int x, int y)
     return x + y;
 }
 
-int tong(int x, int y)
+int hieu(int x, int y)
 {
     return x - y;
 }
